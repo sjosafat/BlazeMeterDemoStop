@@ -1,0 +1,22 @@
+{
+  "name": "test-script",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "login_test": "D:/Shane_BU/BlazeMeterDemoStore/TestScript/node_modules/.bin/cucumber-js -f @cucumber/pretty-formatter feature/Login.feature",
+    "logout_test": "D:/Shane_BU/BlazeMeterDemoStore/TestScript/node_modules/.bin/cucumber-js -f @cucumber/pretty-formatter feature/Logout.feature"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@cucumber/cucumber": "^7.3.2",
+    "cucumber": "^7.0.0-rc.0",
+    "selenium-webdriver": "^4.1.1",
+    "chromedriver": "99.0.4844.51"
+  },
+  "devDependencies": {
+    "@cucumber/pretty-formatter": "^1.0.0-alpha.1",
+    "chai": "^4.3.6"
+  }
+}
